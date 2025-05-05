@@ -84,7 +84,7 @@ for row in table_rows[2:53]: # Covers from row 3 (California) through the rest o
         highest_death_ratio = death_ratio
         state_highest_death_ratio = state
 
-    # Check for highest death ratio
+    # Check for lowest death ratio
     if death_ratio < lowest_death_ratio:
         lowest_death_ratio = death_ratio
         state_lowest_death_ratio = state
